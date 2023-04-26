@@ -78,7 +78,9 @@
 }
 /* Reviews */
 #reviews{
-  background-image: url(/images/cover3.jpg);
+  /* edeted here delet the slash */
+  /* background-image: url(/images/cover3.jpg); */
+  background-image: url(images/cover3.jpg);
   /* background-image: url(/images/back-2.jpg); */
   
 }
@@ -95,7 +97,8 @@
   width: 30px;
 }
 #footer{
-  background-image: url(/images/footer-img.png);
+  /* edeted here delet the slash */
+  background-image: url(images/footer-img.png);
   background-repeat: repeat-y;
   /* background-size:contain; */
   background-size: 100% 100% ;
