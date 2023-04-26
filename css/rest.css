@@ -1,0 +1,129 @@
+:root{
+  /* --btn: coral; */
+  --btn: rgb(157, 219, 11);
+}
+.logo{
+  height: 90px;
+  width:  130px;
+}
+/* .order-btn{
+
+} */
+.our-img{
+  height: 500px;
+  background-color: #232323;
+  border-radius: 20px;
+}
+
+/* Menu Section */
+#menu .nav-pills .nav-link.active , .web-btn-rest{
+  background-color: var(--btn);
+  border-radius: 20px;
+}
+#menu .nav-pills .nav-link{
+  color: #000;
+}
+.rr{
+  width: 250px;
+  width: 100%;
+  height: 250px;
+}
+/* .menu-item  */
+.stars{
+  color: #f58d17;
+}
+
+.shadow-hov{
+  transition: all0.3s;
+}
+.shadow-hov:hover{
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.582);
+}
+/* Feachers Seaction */
+#features{
+  /* background-image: url(/images/cover2.jpg); */
+
+  background-image: url(https://t4.ftcdn.net/jpg/04/43/37/07/360_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.jpg);
+
+
+  /* background-image: url(https://t4.ftcdn.net/jpg/03/54/72/63/360_F_354726339_wDkWbhZDjFvxYafghZ5lvEv5kRVsY35L.jpg); */
+
+  /* background-image: url(https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg); */
+  background-repeat:repeat-y;
+  background-size: 100% auto;
+    background-color: #232323;
+
+}
+
+.feature{
+  border: 2px solid #ffffff33;
+}
+.feature .feature-icon{
+  width: 80px;
+  height: 80px;
+  background-color: #f58d17;
+  color:#fff;
+  font-size: 40px;
+  display:inline-grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+/* Teame Seaction */
+.team-member img{
+  width: 140px;
+  box-shadow: -10px -10px 0 #f58d17;
+  border-radius: 50%;
+}
+/* Reviews */
+#reviews{
+  background-image: url(/images/cover3.jpg);
+  /* background-image: url(/images/back-2.jpg); */
+  
+}
+.review img{
+  width: 75px;
+  object-fit: cover;
+}
+.review .quote-icon{
+  font-size: 74px;
+}
+/* Reservation Seaction*/
+/* Footer Section */
+.sosh-icon{
+  width: 30px;
+}
+#footer{
+  background-image: url(/images/footer-img.png);
+  background-repeat: repeat-y;
+  /* background-size:contain; */
+  background-size: 100% 100% ;
+}
+.txt-footer{
+  color: #fff;
+  background-color: #2323239a;
+}
+
+
+@media (min-width: 490px ) {
+  #features > .container > .row > .col-lg-3{
+  background-color: #2323239a;
+}
+}
+@media (min-width: 90px ) and (max-width: 818px) {
+  .btn-media2{
+    display: none;
+  }
+}
+
+
+
+
+@media (min-width: 820px) {
+  .btn-media{
+    display: none;
+  }
+}
+
+
