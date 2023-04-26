@@ -78,9 +78,14 @@
 }
 /* Reviews */
 #reviews{
-  /* edeted here delet the slash */
+  /* edeted here delet the slash
+  the prolem not from the slash but from the url 
+  i fixed this proplem 
+  i git the url fromthe internet
+  */
   /* background-image: url(/images/cover3.jpg); */
-  background-image: url(images/cover3.jpg);
+  /* background-image: url(images/cover3.jpg); */
+  background-image: url(https://raw.githubusercontent.com/majdroses21/restaurant-websait/main/images/cover3.jpg);
   /* background-image: url(/images/back-2.jpg); */
   
 }
@@ -97,8 +102,8 @@
   width: 30px;
 }
 #footer{
-  /* edeted here delet the slash */
-  background-image: url(images/footer-img.png);
+  /* edeted here */
+  background-image: url(https://raw.githubusercontent.com/majdroses21/restaurant-websait/main/images/footer-img.png);
   background-repeat: repeat-y;
   /* background-size:contain; */
   background-size: 100% 100% ;
