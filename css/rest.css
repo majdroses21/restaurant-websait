@@ -1,137 +1,163 @@
-:root{
+:root {
   /* --btn: coral; */
   --btn: rgb(157, 219, 11);
 }
-.logo{
-  height: 90px;
-  width:  130px;
-}
-/* .order-btn{
 
-} */
-.our-img{
-  height: 500px;
+/* Header */
+.logo {
+  height: 90px;
+  width: 130px;
+}
+
+/* Story */
+.our-story-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.our-img {
   background-color: #232323;
   border-radius: 20px;
 }
 
-/* Menu Section */
-#menu .nav-pills .nav-link.active , .web-btn-rest{
+/* Menu */
+#menu .nav-pills .nav-link.active,
+.web-btn-rest {
   background-color: var(--btn);
   border-radius: 20px;
 }
-#menu .nav-pills .nav-link{
+
+#menu .nav-pills .nav-link {
   color: #000;
 }
-.rr{
+
+/* its the Food image in tabs Menu */
+.rr {
   width: 250px;
   width: 100%;
   height: 250px;
 }
+
 /* .menu-item  */
-.stars{
+.stars {
   color: #f58d17;
 }
 
-.shadow-hov{
-  transition: all0.3s;
+.shadow-hov {
+  transition: all.3s;
 }
-.shadow-hov:hover{
+
+.shadow-hov:hover {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.582);
 }
+
 /* Feachers Seaction */
-#features{
-  /* background-image: url(/images/cover2.jpg); */
+#features {
 
-  background-image: url(https://t4.ftcdn.net/jpg/04/43/37/07/360_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.jpg);
-
-
-  /* background-image: url(https://t4.ftcdn.net/jpg/03/54/72/63/360_F_354726339_wDkWbhZDjFvxYafghZ5lvEv5kRVsY35L.jpg); */
-
-  /* background-image: url(https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg); */
-  background-repeat:repeat-y;
+  background-image: url(https://t4.ftcdn.net/jpg/04/43/37/07/360_F_443370711_sqHRnSIQovW6uyQ5ZwDpd4kjCG8Q6swm.webp);
+  background-repeat: repeat-y;
   background-size: 100% auto;
-    background-color: #232323;
+  background-color: #232323;
 
 }
 
-.feature{
+.feature {
   border: 2px solid #ffffff33;
 }
-.feature .feature-icon{
+
+.feature .feature-icon {
   width: 80px;
   height: 80px;
   background-color: #f58d17;
-  color:#fff;
+  color: #fff;
   font-size: 40px;
-  display:inline-grid;
+  display: inline-grid;
   justify-content: center;
   align-content: center;
   text-align: center;
 }
 
-/* Teame Seaction */
-.team-member img{
+/* Our Team Members */
+.team-member img {
   width: 140px;
   box-shadow: -10px -10px 0 #f58d17;
   border-radius: 50%;
 }
+
 /* Reviews */
-#reviews{
-  /* edeted here delet the slash
-  the prolem not from the slash but from the url 
-  i fixed this proplem 
-  i git the url fromthe internet
-  */
-  /* background-image: url(/images/cover3.jpg); */
-  /* background-image: url(images/cover3.jpg); */
-  background-image: url(https://raw.githubusercontent.com/majdroses21/restaurant-websait/main/images/cover3.jpg);
-  /* background-image: url(/images/back-2.jpg); */
-  
+
+#reviews {
+  background-image: url("../images/cover3.webp");
+  /* background-image: url(https://raw.githubusercontent.com/majdroses21/restaurant-websait/main/images/cover3.webp); */
+  /* background-image: url(/images/back-2.webp); */
+
 }
-.review img{
+
+.review img {
   width: 75px;
   object-fit: cover;
 }
-.review .quote-icon{
+
+.review .quote-icon {
   font-size: 74px;
 }
-/* Reservation Seaction*/
-/* Footer Section */
-.sosh-icon{
+/* Footer */
+.sosh-icon {
   width: 30px;
 }
-#footer{
+
+#footer {
   /* edeted here */
-  background-image: url(https://raw.githubusercontent.com/majdroses21/restaurant-websait/main/images/footer-img.png);
+  /* background-image: url(https://raw.githubusercontent.com/majdroses21/restaurant-websait/main/images/footer-img.webp); */
+  background-image: url("../images/footer-img.webp");
+  background-color: #000;
   background-repeat: repeat-y;
   /* background-size:contain; */
-  background-size: 100% 100% ;
+  background-size: 100% 100%;
 }
-.txt-footer{
+
+.txt-footer {
   color: #fff;
   background-color: #2323239a;
 }
 
 
-@media (min-width: 490px ) {
-  #features > .container > .row > .col-lg-3{
-  background-color: #2323239a;
-}
-}
-@media (min-width: 90px ) and (max-width: 818px) {
-  .btn-media2{
-    display: none;
+
+@media (min-width: 490px) {
+  #features>.container>.row>.col-lg-3 {
+    background-color: #2323239a;
   }
 }
 
-
-
+@media (min-width: 90px) and (max-width: 818px) {
+  .btn-media2 {
+    display: none;
+  }
+}
 
 @media (min-width: 820px) {
-  .btn-media{
+  .btn-media {
     display: none;
   }
 }
 
+/* Slide */
 
+@media (min-width: 1200px) {
+  .carousel-item {
+    /* border: red solid 2px; */
+    height: calc(100vh - 125px);
+    width: 100%;
+  }
+
+  .our-img {
+    height: 500px;
+  }
+}
+
+@media (max-width:490px) {
+  .carousel-item {
+    height: 230px;
+    width: 100%;
+  }
+}
